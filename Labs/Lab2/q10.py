@@ -1,0 +1,18 @@
+'''Write a program to print truth table for bitwise
+operators( & , | and ^ operators)
+'''
+print("Truth table for and:")
+print(0,'|',1,'|',0&1)
+print(1,'|',0,'|',0&1)
+print(1,'|',1,'|',1&1)
+print(0,'|',0,'|',0&0)
+print("Truth table for or:")
+print(0,'|',1,'|',0|1)
+print(1,'|',0,'|',0|1)
+print(1,'|',1,'|',1|1)
+print(0,'|',0,'|',0|0)
+print("Trith table for xor:")
+print(1,'|',1,'|',1^1)
+print(1,'|',0,'|',0^1)
+print(0,'|',1,'|',0^1)
+print(0,'|',0,'|',0^0)
